@@ -19,6 +19,13 @@ footer {
   border-top: 1px lightgray solid;
 }
 
+footer h2 {
+  text-align: center;
+}
+footer p {
+  text-align: center; 
+}
+
 .footer-links {
   display: block;
   padding: 10px;

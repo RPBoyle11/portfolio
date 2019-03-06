@@ -11,7 +11,7 @@ function Skills () {
                 <li><i className="devicon-javascript-plain colored"></i> Javascript</li> 
                 <li><i className="devicon-react-original colored"></i> React/Redux</li> 
                 
-                <li><i className="devicon-vuejs-plain colored"></i> Vue</li>
+                <li><i className="devicon-python-plain colored"></i> Python</li>
                 <li><i className="devicon-html5-plain colored"></i> HTML5</li> 
                 <li><i className="devicon-css3-plain colored"></i> CSS</li> 
               </ul>    

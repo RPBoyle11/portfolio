@@ -8,25 +8,25 @@ function Nav () {
         <nav className='navbar'>
           <ul className='nav-anchors'>
             <li className='nav-anchor'>
-              <Link 
-                to='/work'
+              <a 
+                href='#work-section'
               >
               Work
-              </Link>
+              </a>
             </li>
             <li className='nav-anchor'>
-              <Link 
-                to='#aboutMe' 
+              <a 
+                href='#aboutMe-section' 
               >
               About Me
-              </Link>
+              </a>
             </li>
             <li className='nav-anchor'>
-              <Link 
-                to='/' 
+              <a 
+                href='/' 
                 >
                 {name}
-                </Link>
+              </a>
             </li>
             <li className='nav-anchor'>
               <Link 
@@ -36,11 +36,11 @@ function Nav () {
               </Link>
             </li>
             <li className='nav-anchor'>
-              <Link 
-                to='/contact-info'
+              <a 
+                href='#contact-section'
                 >
                 Contact
-                </Link>
+              </a>
             </li>
           </ul>          
         </nav>
