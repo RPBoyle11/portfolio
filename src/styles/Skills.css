@@ -1,0 +1,44 @@
+.skills-section {
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+
+.skills-section h2 {
+  text-align: center;
+}
+
+.skills {
+  color: rgb(218,218,218);
+  padding: 18px 42px;
+  margin: 10px 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.skills-lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-list {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  text-align: left;
+}
+
+.skill-list li {
+  margin-left: 0px;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.skill-list h3 {
+  margin: 0px;
+}
+
+#me {
+  font-style: italic;
+  /* color: black; */
+}

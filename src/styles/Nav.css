@@ -1,9 +1,37 @@
-.nav-anchors {
-  position: relative;
+li {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-achors {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px 15px;
+  margin: 0px;
+  list-style: none;
+  font-style: bolder;
+  font-weight: bolder;
+}
+
+.nav-anchor {
   padding: 5px 20px;
-  margin:5px auto;
+  margin: 5px auto;
   display: inline-block;
-  font-weight: 700;
   letter-spacing: 3px;
   width: fit-content 100%;
+}
+
+.navbar{
+  background-color: black;
 }

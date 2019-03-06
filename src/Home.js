@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import About from './About';
+import Skills from './Skills';
+import Work from './Work';
+import Welcome from './Welcome';
+
 import './styles/Home.css';
 
 class Home extends Component {
@@ -7,8 +12,10 @@ class Home extends Component {
     return (
       <div className="portfolio">
         <Nav /> 
-        <h1>Hi.  My name is RP Boyle</h1>
-        <h2>a developer</h2>
+        <Welcome />
+        <About />
+        <Skills />
+        <Work />
       </div>
     );
   }

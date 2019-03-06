@@ -1,0 +1,29 @@
+.intro-text {
+  padding: 8px;
+  margin: 0 auto;
+  text-align: left;
+  width: 70%;
+  color: aliceblue;
+}
+
+.intro-text h1 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.intro-text h2 {
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.introduction {
+  display: flex;
+  background-image: url('../extras/lightbulb.jpg');
+  align-items: center;
+  height: 975px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
