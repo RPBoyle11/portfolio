@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import './App.css';
+import './styles/Work.css';
 
 function Work () {
   return (

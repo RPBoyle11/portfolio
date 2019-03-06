@@ -3,17 +3,24 @@
   /* -webkit-overflow-scrolling: touch; */
 }
 
-.nav-anchors {
-  position: relative;
-  padding: 5px 20px;
-  margin:5px auto;
-  display: inline-block;
-  font-weight: 700;
-  letter-spacing: 3px;
-  width: fit-content 100%;
+.social-media-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
-h1, h2 {
-  text-align: center;
-  /* add better font */
+footer {
+  border-top: 1px lightgray solid;
+}
+
+.footer-links {
+  display: block;
+  padding: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #1d2636;
 }

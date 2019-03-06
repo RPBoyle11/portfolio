@@ -1,0 +1,9 @@
+.nav-anchors {
+  position: relative;
+  padding: 5px 20px;
+  margin:5px auto;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 3px;
+  width: fit-content 100%;
+}
