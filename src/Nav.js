@@ -7,35 +7,36 @@ function Nav () {
     return (
         <nav className='navbar'>
           <ul className='nav-anchors'>
-            <li className='nav-anchor'>
+            <li className='nav-anchor work'>
               <a 
                 href='#work-section'
               >
               Work
               </a>
             </li>
-            <li className='nav-anchor'>
+            <li className='nav-anchor name'>
+              <a 
+                href='#aboutMe-section' 
+                >
+                {name}
+              </a>
+            </li>
+            <li className='nav-anchor about'>
               <a 
                 href='#aboutMe-section' 
               >
               About Me
               </a>
             </li>
-            <li className='nav-anchor'>
-              <a 
-                href='/' 
-                >
-                {name}
-              </a>
-            </li>
-            <li className='nav-anchor'>
-              <Link 
-                to='/RP-Boyle-Resume.pdf'
+            <li className='nav-anchor resume'>
+              <a
+                href='RP-Boyle-Resume.pdf'
+                target='_blank'
                 >
                 Resume
-              </Link>
+              </a>
             </li>
-            <li className='nav-anchor'>
+            <li className='nav-anchor contact'>
               <a 
                 href='#contact-section'
                 >
