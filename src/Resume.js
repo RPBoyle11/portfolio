@@ -9,9 +9,9 @@ function Resume () {
           <Link
           to='/'><h1>Robert Patrick Boyle</h1></Link>
         </header>
-        <div className='resume-pdf'>
-        <img src={resume}></img>
-        </div>
+        <section className='resume-pdf'>
+        <img src={resume} alt='resume'></img>
+        </section>
       </div>
 );
 }

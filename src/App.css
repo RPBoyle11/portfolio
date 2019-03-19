@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
   /* -webkit-overflow-scrolling: touch; */
 }
 
@@ -29,6 +30,8 @@ footer p {
 .footer-links {
   display: block;
   padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer-links a {

@@ -9,7 +9,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="portfolio">
+      <div className="app">
         <Route exact path='/RP-Boyle-Resume.pdf' component={'../documents/RP-Boyle-Resume.pdf'} />
         <Route exact path='/about-me' component={About} />
         <Route exact path='/contact-info' component={Contact} />

@@ -3,9 +3,9 @@ import './styles/Skills.css';
 
 function Skills () {
     return (
-      <div className='skills-section'>
+      <section className='skills-section'>
             <h2>Skills</h2>
-            <div className='skills-lists'>
+            <section className='skills-lists'>
               <ul className='skill-list'>
                 <h3>Front end</h3>
                 <li><i className="devicon-javascript-plain colored"></i> Javascript</li> 
@@ -31,8 +31,8 @@ function Skills () {
                 <li><i className="devicon-heroku-plain colored"></i> Heroku</li> 
                 <li><i className="devicon-travis-plain colored"></i> TravisCI</li>
               </ul>     
-            </div>
-      </div>
+            </section>
+      </section>
     );
 }
 
